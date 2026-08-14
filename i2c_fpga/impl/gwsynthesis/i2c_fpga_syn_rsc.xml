@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="1" T_Register="49(1)" T_Lut="91(0)">
+ <SubModule name="clock" Register="33" Lut="62" T_Register="33(33)" T_Lut="62(62)"/>
+ <SubModule name="uart_test" Register="15" Lut="29" T_Register="15(15)" T_Lut="29(29)"/>
+</Module>
