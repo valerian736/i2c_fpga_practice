@@ -7,6 +7,9 @@
         <File path="D:\FPGA_practice\i2c_sensors\i2c_fpga\src\top.vhd" type="vhdl"/>
         <File path="D:\FPGA_practice\i2c_sensors\i2c_fpga\src\clock.vhd" type="vhdl"/>
         <File path="D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_tx.vhd" type="vhdl"/>
+        <File path="D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_ctrl.vhd" type="vhdl"/>
+        <File path="D:\FPGA_practice\i2c_sensors\i2c_fpga\src\aht10_driver.vhd" type="vhdl"/>
+        <File path="D:\FPGA_practice\i2c_sensors\i2c_fpga\src\i2c_master.vhd" type="vhdl"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

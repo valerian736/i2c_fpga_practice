@@ -5,8 +5,11 @@
     <Version>5</Version>
     <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
     <FileList>
+        <File path="src/aht10_driver.vhd" type="file.vhdl" enable="1"/>
         <File path="src/clock.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/i2c_master.vhd" type="file.vhdl" enable="1"/>
         <File path="src/top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/uart_ctrl.vhd" type="file.vhdl" enable="1"/>
         <File path="src/uart_tx.vhd" type="file.vhdl" enable="1"/>
         <File path="src/i2c_fpga.cst" type="file.cst" enable="1"/>
     </FileList>

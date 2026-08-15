@@ -1,19 +1,31 @@
 GowinSynthesis start
 Running parser ...
 Analyzing VHDL file 'D:\FPGA_practice\i2c_sensors\i2c_fpga\src\top.vhd'
-Analyzing entity 'top'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\top.vhd":4)
-Analyzing architecture 'beavioral'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\top.vhd":15)
+Analyzing entity 'top'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\top.vhd":5)
+Analyzing architecture 'beavioral'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\top.vhd":17)
 Analyzing VHDL file 'D:\FPGA_practice\i2c_sensors\i2c_fpga\src\clock.vhd'
 Analyzing entity 'clock_divider'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\clock.vhd":5)
 Analyzing architecture 'bhv'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\clock.vhd":9)
 Analyzing VHDL file 'D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_tx.vhd'
 Analyzing entity 'uart_tx'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_tx.vhd":5)
 Analyzing architecture 'behavioural'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_tx.vhd":23)
-Processing 'top(beavioral)'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\top.vhd":4)
+Analyzing VHDL file 'D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_ctrl.vhd'
+Analyzing entity 'uart_ctrl'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_ctrl.vhd":5)
+Analyzing architecture 'arch'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_ctrl.vhd":18)
+Analyzing VHDL file 'D:\FPGA_practice\i2c_sensors\i2c_fpga\src\aht10_driver.vhd'
+Analyzing entity 'aht10'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\aht10_driver.vhd":5)
+Analyzing architecture 'arch'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\aht10_driver.vhd":20)
+Analyzing VHDL file 'D:\FPGA_practice\i2c_sensors\i2c_fpga\src\i2c_master.vhd'
+Analyzing entity 'i2c_master'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\i2c_master.vhd":36)
+Analyzing architecture 'logic'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\i2c_master.vhd":54)
+Processing 'top(beavioral)'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\top.vhd":5)
 Processing 'Clock_Divider(bhv)'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\clock.vhd":5)
 WARN  (EX4749) : 'tmp' should be on the sensitivity list of the process. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\clock.vhd":33)
 WARN  (EX4387) : Incomplete sensitivity list specified, assuming completeness("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\clock.vhd":34)
 Processing 'uart_tx(behavioural)'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_tx.vhd":5)
+Processing 'uart_ctrl(arch)'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\uart_ctrl.vhd":5)
+Processing 'aht10(arch)'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\aht10_driver.vhd":5)
+Processing 'i2c_master(input_clk=27000000)(logic)'("D:\FPGA_practice\i2c_sensors\i2c_fpga\src\i2c_master.vhd":36)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
